@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusTimer</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="timer">
+            <span class="minutes">25</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+        </div>
+        <div id="controls">
+            <button class="play">
+                <img src="svgs/Font_Awesome_5_regular_play-circle.svg" alt="">
+            </button>
+            <button class="pause hide">
+                <img src="svgs/music-player-pause-button-svgrepo-com.svg" alt="">
+            </button>
+            <button class="stop hide">
+                <img src="svgs/stop-button-round-icon.svg" alt="">
+            </button>
+            <button class="set">
+                <img src="svgs/stopwatch_icon-icons.com_56756.svg" alt="">
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <button class="sound-on">
+            <img src="svgs/volume-audio-svgrepo-com.svg" alt="">
+            <audio class="music" src="https://www.youtube.com/watch?v=tCng3Wu6Zo0&t=16s"></audio>
+        </button>
+        <button class="sound-off hide">
+            <img src="svgs/pngfind.com-mute-button-png-3837218.svg" alt="">
+        </button>
+    </footer>
+
+    <script src="js/index.js" type="module"defer></script>
+</body>
+</html>
